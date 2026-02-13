@@ -116,14 +116,122 @@ body.dark-mode {
 /* ///ADD/// Navigation Styles */
 
 
+header {
+ background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  padding: 0;
+  margin-bottom: .75rem;
+}
+
+header .tagline {
+  font-family: var(--font-heading);
+  color: var(--watchdog-white);
+  padding: 0;
+}
+
+.mobile-nav {
+  margin-top: 1rem;
+}
+
+.menu-button {
+  display: block;
+  text-align: center;
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.75rem;
+}
+
+nav a{
+  display: none;
+}
+
+
 /* ///ADD/// Global Layout Styles */
 
+body{
+      background-color: var(--watchdog-white);
+}
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.breaking-news-article {
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+form{
+  background-color: var(--news-flash);
+  color: var(--watchdog-white)
+}
+
+footer{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  padding: 1rem;
+}
 
 /* ///ADD/// Global Text Styles */
 
+h2 {
+  font-family: var(--font-heading);
+  color: var(--truth-text);
+  font-size: 1.25rem;
+}
+
+.breaking-news-article h3 {
+  font-family: var(--font-heading);
+  color: var(--watchdog-white);
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.breaking-news-article p {
+  font-family: var(--font-body);
+  color: var(--watchdog-white);
+  font-size: .75rem;
+}
+
+blockquote{
+  font-family: var(--font-body);
+  font-style: italic;
+  margin: auto;
+}
+
+main h3 {
+  font-family: var(--font-heading);
+}
+
+main p{
+  font-family: var(--font-body);
+  color: var(--truth-text);
+  line-height: 1.6;
+}
+
+
 
 /* ///ADD/// medium styles 620px */
+
+@media (min-width: 620px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 
 /* ///ADD/// large styles 920px */
