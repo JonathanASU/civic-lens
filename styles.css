@@ -185,13 +185,19 @@ video{
   padding-top: .5rem;
 }
 
+#featured-articles-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 .article{
   border: var(--truth-text) solid 1px;
   filter: drop-shadow(var(--shadow));
   background-color: var(--watchdog-white);
   color: var(--truth-text);
   padding: 1rem;
-  margin: 1rem auto;
+  gap: 1rem;
 }
 
 .form-group {
@@ -368,7 +374,17 @@ footer svg {
   display: none;
 }
 
+#breaking-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
 
+#featured-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
   
 }
 
