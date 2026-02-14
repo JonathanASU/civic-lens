@@ -501,6 +501,15 @@ main{
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
+@media (prefers-color-scheme: dark) {
+.day .dark-scheme {background: var(--truth-text) color: var(var(--watchdog-white)));}
+.night .dark-scheme background: var(--truth-text) color: var(var(--watchdog-white)));}
+
+@media (prefers-color-scheme: dark) {
+.day .light-scheme {background: var(--watchdog-white) color: var(var(var(var(--truth-text);}
+.night .light-scheme background: var(--watchdog-white) color: var(var(--truth-text)));}
+
+}
 
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
