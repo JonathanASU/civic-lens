@@ -261,7 +261,6 @@ footer{
 
 main h2 {
   font-family: var(--font-heading);
-  color: var(--truth-text);
   font-size: 1.25rem;
   margin: 2rem 0 2rem 0;
 }
@@ -301,20 +300,17 @@ article h3{
 
 main p{
   font-family: var(--font-body);
-  color: var(--truth-text);
   line-height: 1.6;
 }
 
 #alerts h3{
   font-family: var(--font-heading);
-  color: var(--truth-text);
   font-size: 1.25rem;
   margin-top: 2rem;
 }
 
 #alerts p{
   font-family: var(--font-body);
-  color: var(--truth-text);
   font-size: 1rem;
   line-height: 1.6;
   margin-top: 1rem;
