@@ -206,6 +206,10 @@ video{
   margin-bottom: 1rem;
 }
 
+.form-group input{
+  min-height: 1.5rem;
+}
+
 form{
   background-color: var(--news-flash);
   color: var(--watchdog-white);
@@ -385,7 +389,19 @@ footer svg {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
-  
+
+#form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+  }
+
+#checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 }
 
 
