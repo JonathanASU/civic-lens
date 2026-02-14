@@ -154,8 +154,6 @@ nav a{
   display: none;
 }
 
-
-
 /* ///ADD/// Global Layout Styles */
 
 body{
@@ -232,6 +230,7 @@ fieldset label{
  form button {
   display: block;
   text-align: center;
+  margin: auto;
   width: 100%;
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
@@ -353,10 +352,6 @@ footer svg {
   margin-bottom: 1rem;
 }
 
-
-
-
-
 /* ///ADD/// medium styles 620px */
 
 @media (min-width: 620px) {
@@ -400,18 +395,112 @@ footer svg {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-
 }
-
 
 /* ///ADD/// large styles 920px */
 
+@media (min-width: 920px) {
+
+.menu{
+  display: flex;
+}
+
+.menu li a {
+    display: inline-block;
+    color: var(--watchdog-white);
+    background-color: var(--news-flash);
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    margin-right: .5rem;
+  }
+
+.menu-button {
+  display: none;
+}
+
+#breaking-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#featured-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+#form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+  }
+
+#checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
 
 /* ///ADD/// x-large styles 1024px */
 
+@media (min-width: 1024px) {
+
+main{
+  padding: 0 10rem;
+}
+
+#header-contents{
+  margin-left: 10rem;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li a {
+    display: inline-block;
+    color: var(--watchdog-white);
+    background-color: var(--news-flash);
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    margin-right: .5rem;
+  }
+
+.menu-button {
+  display: none;
+}
+
+#breaking-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#featured-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+#form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+  }
+
+#checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#footer-contents{
+  margin-left: 10rem;
+}
+}
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
+
 
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
