@@ -213,6 +213,7 @@ form{
   color: var(--watchdog-white);
   padding: 1rem;
   margin: 1rem auto;
+  box-shadow: var(--shadow);
 }
 
 fieldset{
@@ -346,6 +347,7 @@ footer svg {
   border-radius: .25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  box-shadow: var(--shadow);
 }
 
 /* ///ADD/// medium styles 620px */
