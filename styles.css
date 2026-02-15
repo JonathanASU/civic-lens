@@ -239,7 +239,7 @@ fieldset label{
   cursor: pointer;
   padding: 0.75rem;
   margin-top: 1rem;;
-  filter: drop-shadow(var(--shadow));
+  box-shadow: var(--shadow);
 }
 
 .social-links {
