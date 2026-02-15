@@ -192,7 +192,7 @@ video{
 }
 
 .article {
-  border: var(--truth-text) solid 1px;
+  border: var(--story-subtitle) solid 1px;
   box-shadow: var(--shadow);
   padding: 1rem;
   gap: 1rem;
