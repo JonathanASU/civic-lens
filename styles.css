@@ -547,6 +547,3 @@ body.light-mode{
 
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
-@supports (selector(:has(*))) {
-
-}
