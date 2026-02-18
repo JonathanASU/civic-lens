@@ -66,7 +66,7 @@
         <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
 
-      <h2 id="breaking-news">Breaking News</h2>
+      <h2 id="breaking-news-header">Breaking News</h2>
 
       <section id="breaking-news" aria-label="Breaking News">
         <article class="breaking-news-article">
@@ -89,7 +89,7 @@
       </section>
       
       <h2 id="featured-articles">Featured Articles</h2>
-    <section id="featured-articles-grid"> 
+    <div id="featured-articles-grid"> 
       <article class="article">
         <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
         <hr>
@@ -161,14 +161,14 @@
         <hr>
         <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
       </article>
-    </section> 
+    </div> 
 
     <section id="alerts">
       <h3>Informed. Stay Empowered.</h3>
         <p>Receive text messages with the news you want to know.</p>
       
       <form method="post" action="#" aria-label="Subscription Form">
-        <section id="form-field">
+        <div id="form-field">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
@@ -183,11 +183,11 @@
             <label for="phone">Mobile</label>
             <input type="tel" id="phone" name="phone" required>
           </div>
-      </section>
+      </div>
 
           <fieldset id="notification-preferences">
             <legend>Notification Preferences</legend>
-              <section id="checkboxes">
+              <div id="checkboxes">
                 <label><input type="checkbox" id="breaking-news-alerts" name="newsletter" value="breaking-news">Breaking News</label>
                 <label><input type="checkbox" id="politics-alerts" name="newsletter" value="politics">Politics</label>
                 <label><input type="checkbox" id="weather-alerts" name="newsletter" value="weather">Weather</label>
@@ -195,7 +195,7 @@
                 <label><input type="checkbox" id="entertainment-alerts" name="newsletter" value="entertainment">Entertainment</label>
                 <label><input type="checkbox" id="world-alerts" name="newsletter" value="world">World</label>
                 <label><input type="checkbox" id="financial-alerts" name="newsletter" value="financial">Financial</label>
-              </section>
+              </div>
           </fieldset>
 
           <button type="submit" class="subscribe-button">Subscribe</button>
