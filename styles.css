@@ -150,8 +150,25 @@ header .tagline {
   padding: 0.75rem;
 }
 
+#menu-toggle:checked ~ .menu {
+  display: block;
+}
+
 .menu {
   display: none;
+  flex-direction: column;
+}
+
+nav li a{
+  background-color: var(--watchdog-white);
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  align-content: center;
+  font-family: 'Merriweather', serif;
+  color: var(--truth-text);
+  border-bottom: 1px solid var(--truth-text);
 }
 
 
@@ -354,9 +371,14 @@ footer svg {
 
 @media (min-width: 620px) {
 
-.menu{
-  display: flex;
-}
+.menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu li a {
+    border-bottom: none;
+  }
 
 .menu li a {
     display: inline-block;
@@ -405,6 +427,10 @@ footer svg {
 
 .menu{
   display: flex;
+}
+
+.menu li {
+  flex: 0 0 auto;
 }
 
 .menu li a {
