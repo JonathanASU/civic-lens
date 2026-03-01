@@ -544,6 +544,19 @@ body.light-mode{
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
+
+@supports (selector(:has(#menu-toggle:checked))) {
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+  }
+}
